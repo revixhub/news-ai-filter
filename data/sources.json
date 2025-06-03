@@ -1,0 +1,25 @@
+{
+  "telegram": [
+    "@sostav",
+    "@digitalagency",
+    "@marketing_ru",
+    "@marketingmedia",
+    "@digitalmarketingru",
+    "@cossa_ru",
+    "@vcnews"
+  ],
+  "websites": [
+    "https://sostav.ru/rss/",
+    "https://vc.ru/marketing/rss",
+    "https://www.cossa.ru/rss/",
+    "https://spark.ru/feed/",
+    "https://www.adme.ru/rss/",
+    "https://rb.ru/rss/",
+    "https://vc.ru/flood/rss"
+  ],
+  "youtube": [
+    "UCMarketingTV",
+    "UCBusinessChannel",
+    "UCDigitalChannel"
+  ]
+} 
