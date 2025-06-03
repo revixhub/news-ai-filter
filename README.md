@@ -21,8 +21,8 @@
 
 1. **Клонируйте репозиторий:**
 ```bash
-git clone <repository-url>
-cd marketing-digest-bot
+git clone https://github.com/revixhub/news-ai-filter.git
+cd news-ai-filter
 ```
 
 2. **Создайте виртуальное окружение:**
@@ -123,7 +123,7 @@ MCP_API_KEY=your_mcp_api_key
 ## 🏗 Архитектура
 
 ```
-📁 marketing-digest-bot/
+📁 news-ai-filter/
 ├── 🗂 src/
 │   ├── 📁 collectors/      # Сборщики данных
 │   │   ├── telegram_collector.py
@@ -275,7 +275,7 @@ After=network.target
 [Service]
 Type=simple
 User=your_user
-WorkingDirectory=/path/to/marketing-digest-bot
+WorkingDirectory=/path/to/news-ai-filter
 ExecStart=/path/to/venv/bin/python main.py
 Restart=always
 RestartSec=10
@@ -305,4 +305,4 @@ sudo systemctl status digest-bot
 
 ⭐ **Если проект полезен, поставьте звезду!**
 
-🚀 **Экономьте время на мониторинге новостей с AI** 
+🚀 **Экономьте время на мониторинге новостей с AI**
